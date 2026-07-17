@@ -1,0 +1,24 @@
+POST http://localhost:3000/contacts
+Content-Type: application/json
+
+{
+  "firstName": "Juan",
+  "lastName": "Perez",
+  "email": "juan.perez@example.com",
+  "favoriteColor": "azul",
+  "birthday": "1995-05-20"
+}
+
+###
+PUT http://localhost:3000/contacts/6a59bf6c6da144acbfe8c92e
+Content-Type: application/json
+
+{
+  "firstName": "Juan",
+  "lastName": "Perez",
+  "email": "juan.perez@example.com",
+  "favoriteColor": "verde",
+  "birthday": "1995-05-20"
+}
+###
+DELETE http://localhost:3000/contacts/6a544c7aea196347496ef79c
