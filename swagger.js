@@ -6,7 +6,7 @@ const doc = {
     description: 'API para gestionar contactos y empleados - WDD 330 / CSE 341',
   },
   host: 'cse341-contacts-kqxg.onrender.com',
-  schemes: ['http'],
+  schemes: ['https'],
 };
 
 const outputFile = './swagger.json';
