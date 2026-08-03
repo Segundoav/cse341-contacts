@@ -5,7 +5,7 @@
     "description": "API para gestionar contactos y empleados - WDD 330 / CSE 341",
     "version": "1.0.0"
   },
-  "host": "localhost:3000",
+  "host": "cse341-contacts-kqxg.onrender.com",
   "basePath": "/",
   "schemes": [
     "http"
@@ -85,6 +85,9 @@
                   "example": "any"
                 },
                 "birthday": {
+                  "example": "any"
+                },
+                "phone": {
                   "example": "any"
                 }
               }

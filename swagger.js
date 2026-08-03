@@ -5,7 +5,7 @@ const doc = {
     title: 'Contacts API',
     description: 'API para gestionar contactos y empleados - WDD 330 / CSE 341',
   },
-  host: 'localhost:3000',
+  host: 'cse341-contacts-kqxg.onrender.com',
   schemes: ['http'],
 };
 
